@@ -9,7 +9,9 @@
 
 .box{
     width: 300px;
+    height: 200px;
     border: 3px dashed red;
+    position: relative;
 }
 
 img{
@@ -22,9 +24,27 @@ img{
     /* top: -70px; */
     /* z-index: 1; */
 
-    position: absolute;
-    left: 200px;
-    top: 35%;
+    /* position: absolute; */
+    /* left: 200px; */
+    /* top: 35%; */
+
+    /* position: sticky; */
+    /* top:0px; */
+
+    /* position: fixed; */
+    /* top: 200px; */
+
+    top: -50px;
+    /* z-index: ; */
+}
+
+.im1{
+    z-index: 1;
+}
+
+.im3{
+    top: -150px;
+    z-index: -1;
 }
 
 /* .im3{
@@ -34,3 +54,31 @@ img{
     z-index: -1;
 } */
 
+
+
+h2::after{
+    content: " After content";
+    color: green;
+}
+
+h2:hover::before{
+    content: "Before content ";
+    color: red;
+}
+
+p::first-letter{
+font-size: 250px;
+}
+
+p::first-line{
+    background-color: green;
+}
+
+::selection{
+    background-color: aqua;
+    color: white;
+}
+
+input::placeholder{
+    color: red;
+}
