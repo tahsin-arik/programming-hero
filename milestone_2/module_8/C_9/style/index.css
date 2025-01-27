@@ -1,0 +1,33 @@
+
+body{
+    max-width: 700PX;
+}
+
+.container{
+    border: 2px solid red;
+    background-color: skyblue;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+
+
+}
+
+.box{
+    border: 1px solid green;
+    padding: 10px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.left{
+    width: 30%;
+    background-color: antiquewhite;
+}
+
+.right
+{
+    width:70%;
+    background-color: rgb(150, 236, 236);
+}
