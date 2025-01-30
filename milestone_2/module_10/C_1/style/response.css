@@ -1,7 +1,7 @@
 
 
 @media screen and (max-width: 576px){
-    .navbar, .teams{
+    .navbar, .teams, .features{
         flex-direction: column;
     }
 
@@ -22,10 +22,16 @@
         justify-items: center;
         gap: 50px;
     }
+
+    #experience-badge{
+        /* margin-top: 20px;
+        margin-left: 10px; */
+        margin: auto;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     
