@@ -5,45 +5,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.work-sans-font{
+.work-sans-font {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  /* shared style */
+/* shared style */
 
-  main{
+main {
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
 
-  main >section{
+main>section {
     margin-top: 130px;
-  }
+}
 
-  .komola{
+.komola {
     color: #FF900E;
 }
- 
-  .display-flex{
+
+.display-flex {
     display: flex;
-  }
+}
 
-  .text-gray{
+.text-gray {
     color: #424242;
-  }
+}
 
-  .text-light-gray{
+.text-light-gray {
     color: #727272;
 }
 
-.bg-light{
+.bg-light {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FF900E;
     color: white;
     padding: 15px 20px;
@@ -53,19 +53,19 @@
     border-radius: 8px;
 }
 
-.section-title{
+.section-title {
     font-size: 2.8rem;
     font-weight: 700;
 }
 
 
-  /* header and navbar  */
-.navbar{
+/* header and navbar  */
+.navbar {
     justify-content: space-between;
     align-items: center;
 }
 
-.brand{
+.brand {
     font-weight: 700;
     font-size: 3rem;
 }
@@ -75,75 +75,77 @@
     margin-right: 25px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
 }
 
-.navbar, .banner{
+.navbar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* banner style */
 
-.banner-content{
+.banner-content {
     max-width: 850px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
-.banner-title{
+.banner-title {
     font-weight: 700;
     font-size: 4rem;
 }
 
-.banner-image{
+.banner-image {
     width: 100%;
 }
 
 /* team and feature */
-.teams{
+.teams {
     align-items: center;
 }
 
-.tema-img-container{
+.tema-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.our-features{
+.our-features {
     margin-left: 130px;
     max-width: 530px;
 }
 
 
 
-#quick-list{
+#quick-list {
     font-weight: 500;
 }
 
 /* features section */
 
-.features{
+.features {
     gap: 100px;
 }
-#feature-section-title{
+
+#feature-section-title {
     border-left: 5px solid #FF900E;
     padding-left: 10px;
 }
 
-.feature-card{
+.feature-card {
     margin-bottom: 30px;
     border-radius: 8px;
     padding: 30px;
-    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.082);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.082);
 }
 
-.feature-card .feature-title{
+.feature-card .feature-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 0px;
@@ -151,32 +153,32 @@
 
 }
 
-#experience-badge{
+#experience-badge {
     padding: 45px 42px;
     font-size: 1.5rem;
     font-weight: 400;
-margin-left: -100px;
-margin-top: -100px;
+    margin-left: -100px;
+    margin-top: -100px;
 }
 
-#experience-year{
+#experience-year {
     font-size: 4rem;
     font-weight: 700;
 }
 
-.featured-architect img{
-width: 100%;
+.featured-architect img {
+    width: 100%;
 }
 
 
 /* some facts related style */
 
-.facts-container{
+.facts-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.fact{
+.fact {
     border: 1px solid #FF900E;
     width: 240px;
     height: 240px;
@@ -186,35 +188,34 @@ width: 100%;
     text-align: center;
 }
 
-.fact-number{
+.fact-number {
     font-size: 2.8rem;
     font-weight: 600;
     margin: 10px 0px 10px 0px;
 }
 
-.fact-name{
+.fact-name {
     font-size: 1.25rem;
     font-weight: 600;
     margin: 10px 0px 0px 0px;
 }
 
 
-.fact-description{
+.fact-description {
     max-width: 540px;
 }
 
-.sponsor-info{
+.sponsor-info {
     max-width: 540px;
-    margin:50px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
-.sponsor-companys{
+.sponsor-companys {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
-.sponsor-companys img{
+.sponsor-companys img {
     filter: grayscale(100%);
 }
-
