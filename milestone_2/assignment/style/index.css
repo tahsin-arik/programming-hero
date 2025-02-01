@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,45 +7,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.quicksand-font{
+.quicksand-font {
     font-family: "Quicksand", serif;
     /* font-optical-sizing: auto; */
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 /* importing quicksand font finish */
 
 
 /* share style start */
 
-.df{
+.df {
     display: flex;
 }
 
-.orange{
+.orange {
     color: orange;
 }
 
-.deep-sky-blue
-{
+.deep-sky-blue {
     color: #01ACFD;
 }
 
-.dark-turquoise{
+.dark-turquoise {
     color: #23D8E2;
 }
 
-.neon-blue{
-    color:#5D58EF;
+.neon-blue {
+    color: #5D58EF;
 }
 
-.description{
+.description {
     color: #808080;
     padding: 10px;
 }
 
-.btn{
+.btn {
     color: white;
     border: none;
     border-radius: 8px;
@@ -56,38 +55,38 @@
     font-weight: 400;
 }
 
-
-
 /* share style end */
 
 
-/* style */
+
+/* main style */
 
 /* styling banner section */
-.banner{
+.banner {
     margin: auto;
     padding: 0px 30px;
     justify-content: center;
     align-items: center;
-    /* max-width: 1550px; */
+    max-width: 1550px;
 }
 
-.banner-content, .banner-media{
+.banner-content,
+.banner-media {
     padding: 30px;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 3.5rem;
     font-weight: bold;
     padding: 10px 0px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 1.25rem;
     padding: 15px 0px;
 }
 
-.banner-btn{
+.banner-btn {
     background-color: black;
 }
 
@@ -95,28 +94,31 @@
 
 /* standerd curriculum start */
 
-.standard-curriculum{
+.standard-curriculum {
     margin: auto;
     text-align: center;
     background-image: url(../media/bg.png);
-    background-position:center;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: center;
+    /* background-size:contain; */
 }
 
-.standard-heading{
+.standard-heading {
     font-weight: bold;
     font-size: 2.8rem;
     padding: 10px;
     margin: 50px 0px;
 }
 
-.curriculums{
+.curriculums {
 
     max-width: 1160px;
     margin: auto;
     justify-content: space-between;
 }
 
-.curiculum{
+.curiculum {
     width: 300px;
     /* height: 400px; */
     padding: 30px;
@@ -124,45 +126,40 @@
     align-items: center;
 }
 
-#curri-1{
-    background: linear-gradient(
-        to bottom,
-        #01adfd42,
-        white
-    );
+#curri-1 {
+    background: linear-gradient(to bottom,
+            #01adfd42,
+            white);
 }
 
-#curri-2{
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 166, 0, 0.288),
-        white
-    );
+#curri-2 {
+    background: linear-gradient(to bottom,
+            rgba(255, 166, 0, 0.288),
+            white);
 }
 
-#curri-3{
-    background: linear-gradient(
-        to bottom,
-        #5d58ef4b,
-        white
-    );
+#curri-3 {
+    background: linear-gradient(to bottom,
+            #5d58ef4b,
+            white);
 }
 
-.curriculum-heading{
+.curriculum-heading {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 20px 0;
 }
 
-.curiculum p{
+.curiculum p {
     padding: 20px 0;
 }
 
-.read-more{
-padding: 20px 0;
+.read-more {
+    padding: 20px 0;
 }
 
-.l-btn, .r-btn{
+.l-btn,
+.r-btn {
     background-color: orange;
     font-size: 1.5rem;
     font-weight: bold;
@@ -172,10 +169,11 @@ padding: 20px 0;
     height: 60px;
     border-radius: 30px;
     padding: 10px;
-    margin: 80px 5px;
+    margin: 60px 5px;
 }
 
-.l-btn:hover, .r-btn:hover{
+.l-btn:hover,
+.r-btn:hover {
     background-color: rgb(129, 85, 1);
     transition: 0.5s;
 }
@@ -184,7 +182,173 @@ padding: 20px 0;
 /* standerd curriculum end */
 
 /* marquee */
-marquee{
+marquee {
     margin: 50px 0px;
+    border: 1px solid tomato;
+    padding: 10px;
 }
 
+/* our stories start */
+
+.our-stories {
+    background-image: url(../media/bg.png), linear-gradient(to top,
+            rgba(255, 166, 0, 0.363),
+            white);
+
+    background-position: center;
+    padding: 50px 0;
+}
+
+.stories-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.stories {
+    max-width: 1160px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.story {
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.story-mega {
+    width: 540px;
+    height: 100%;
+}
+
+.story-single {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-media {
+    position: relative;
+}
+
+.story-media img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.story-mega-btn {
+    margin-top: -27px;
+    margin-left: 35px;
+    position: absolute;
+    background-color: #3CD8E8;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.95875rem;
+    width: 174px;
+    height: 44px;
+    padding: 8px;
+    border: none;
+}
+
+.story-heading {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.stories p {
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.story-btn-1 {
+    margin-top: -27px;
+    margin-left: 35px;
+    position: absolute;
+    background-color: #95B226;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.95875rem;
+    width: 174px;
+    height: 44px;
+    padding: 8px;
+    border: none;
+}
+
+.story-btn-2 {
+    margin-top: -27px;
+    margin-left: 35px;
+    position: absolute;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.95875rem;
+    width: 174px;
+    height: 44px;
+    padding: 8px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: deepskyblue;
+}
+
+.footer {
+    width: 1070px;
+    margin: 123px 0px 174px 0px;
+    display: flex;
+    color: white;
+    /* padding: 30px; */
+    justify-content: space-between;
+}
+
+.kid {
+    width: 400px;
+}
+
+.kidy {
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.kid p {
+    padding: 10px;
+}
+
+
+.foot-title {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.about li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.about a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.social img {
+    padding: 10px 0px;
+}
+
+
+
+/* our stories end */
