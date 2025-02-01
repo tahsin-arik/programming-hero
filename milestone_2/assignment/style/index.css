@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* importing quicksand font */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* importing quicksand font finish */
+
+
+/* share style start */
+
+.df{
+    display: flex;
+}
+
+.orange{
+    color: orange;
+}
+
+.deep-sky-blue
+{
+    color: #01ACFD;
+}
+
+.dark-turquoise{
+    color: #23D8E2;
+}
+
+.neon-blue{
+    color:#5D58EF;
+}
+
+.description{
+    color: #808080;
+    padding: 10px;
+}
+
+.btn{
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+
+/* share style end */
+
+
+/* style */
+
+/* styling banner section */
+.banner{
+    margin: auto;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1550px; */
+}
+
+.banner-content, .banner-media{
+    padding: 30px;
+}
+
+.banner-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+    padding: 15px 0px;
+}
+
+.banner-btn{
+    background-color: black;
+}
+
+/* banner section end */
+
+/* standerd curriculum start */
+
+.standard-curriculum{
+    margin: auto;
+    text-align: center;
+    background-image: url(../media/bg.png);
+    background-position:center;
+}
+
+.standard-heading{
+    font-weight: bold;
+    font-size: 2.8rem;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.curriculums{
+
+    max-width: 1160px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.curiculum{
+    width: 300px;
+    /* height: 400px; */
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#curri-1{
+    background: linear-gradient(
+        to bottom,
+        #01adfd42,
+        white
+    );
+}
+
+#curri-2{
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 166, 0, 0.288),
+        white
+    );
+}
+
+#curri-3{
+    background: linear-gradient(
+        to bottom,
+        #5d58ef4b,
+        white
+    );
+}
+
+.curriculum-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.curiculum p{
+    padding: 20px 0;
+}
+
+.read-more{
+padding: 20px 0;
+}
+
+.l-btn, .r-btn{
+    background-color: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 80px 5px;
+}
+
+.l-btn:hover, .r-btn:hover{
+    background-color: rgb(129, 85, 1);
+    transition: 0.5s;
+}
+
+
+/* standerd curriculum end */
+
+/* marquee */
+marquee{
+    margin: 50px 0px;
+}
+

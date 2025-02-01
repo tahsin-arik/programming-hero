@@ -1,0 +1,56 @@
+
+
+.navigation{
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* for logo and title */
+.logo-and-title{
+    align-items: center;
+    
+}
+
+.logo-and-title h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* for logo and title end */
+
+/* navigstion link start */
+
+.navigation{
+    padding: 15px;
+}
+
+.nav-link ul li{
+    list-style: none;
+    margin-right: 32px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.home{
+    font-weight: bold;
+}
+
+
+/* navigstion link end */
+
+/* nav button */
+.nav-btn{
+    background-color: orange;
+}
+
+.nav-btn:hover{
+    background-color: rgb(252, 187, 11);
+    transition: 0.5s;
+    color: rgb(158, 90, 0);
+}
+
