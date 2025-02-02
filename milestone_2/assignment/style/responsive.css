@@ -1,0 +1,62 @@
+@media screen and (max-width:576px) {
+    .navigation {
+        flex-direction: column;
+        border-bottom: 2px solid rgba(255, 166, 0, 0.555);
+    }
+
+    .navigation h3 {
+        display: none;
+    }
+
+    .nav-link {
+        padding: 25px 0px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .curriculums {
+        flex-direction: column;
+    }
+
+    .curiculum{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .l-btn,
+    .r-btn {
+        display: none;
+    }
+
+    .story-mega {
+        display: none;
+    }
+
+.story-single{
+
+}
+
+
+.story{
+    width: 100%;
+    justify-content: space-around;
+}
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .kid,
+    .about,
+    .social {
+        text-align: center;
+        /* justify-content: center; */
+    }
+}
