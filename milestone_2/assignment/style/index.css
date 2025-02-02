@@ -90,6 +90,11 @@
     background-color: black;
 }
 
+.banner-btn:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+
 /* banner section end */
 
 /* standerd curriculum start */
