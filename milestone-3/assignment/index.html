@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- daisyUI -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- daisyUI -->
+
+  <!-- ADLaM display font -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+  <!-- ADLaM display font end -->
+
+  <!-- sora font -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- sora font ent -->
+
+  <style>
+    .adlam-display-regular {
+      font-family: "ADLaM Display", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+    .sora-font {
+      font-family: "Sora", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .pamper img {
+      /* background-image: url(./media/cat-big.png); */
+      width: 80%;
+    }
+  </style>
+
+  <!-- custom tailwindcss -->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn-color': '#FFDC26',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- custom tailwindcss end -->
+
+  <!-- font awsom -->
+  <script src="https://kit.fontawesome.com/d33b1e0962.js" crossorigin="anonymous"></script>
+  <!-- font awsom end -->
+
+
+
+</head>
+
+<body class="adlam-display-regular">
+
+  <!-- header -->
+
+  <!-- navigation bar -->
+
+  <nav class="bg-[#FFF9F4] sora-font">
+    <div class="navbar max-w-[1320px] mx-auto">
+      <div class="navbar-start">
+        <img src="media/logo-header.png" alt="" class="px-2">
+        <a class="text-xl hidden md:block">Browse<span class="text-btn-color">4</span>pets</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Find a pet</a></li>
+          <li><a>Breeds</a></li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end pr-5 space-x-3 hidden md:block">
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button
+          class="py-1.5 px-7 hover:bg-yellow-400 hover:text-white border-[1px] border-yellow-300 rounded-lg">Login</button>
+        <a class="py-1.5 px-7 bg-btn-color rounded-lg hover:bg-yellow-500 hover:text-white">Register</a>
+      </div>
+      <div class="dropdown ">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-[130px]">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Find a pet</a></li>
+          <li><a>Breeds</a></li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navigation bar end -->
+
+  <!-- header end -->
+
+  <!-- pamper section -->
+
+  <section class="container max-w-[1320px] mx-auto relative  mt-10 mb-20">
+
+    <div class="pamper  mx-auto space-y-4 p-5">
+      
+      <div class="absolute lg:mt-[100px] md:mt-[90px] mt-[250px]">
+        <img class="" src="media/cat-big.png" alt="">
+      </div>
+      <div class="relative">
+        <h2 class="text-5xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h2>
+      <p class="text-gray-500">Discover a world of treats, toys, and essentials handpicked for <br>your furry friends.
+        Shop now and make tails wag with joy!</p>
+        <button class="bg-btn-color px-4 py-1 rounded hover:bg-yellow-500">Find a pat</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- pamper section end -->
+
+  <!-- categories section -->
+   <section class="container max-w-[1320px] mx-auto lg:mt-[450px] md:mt-[250px] mt-[350px]">
+    <h1 class="text-3xl py-7 px-5">Browse By Categories</h1>
+    <!-- cards -->
+    <div class="categories flex flex-wrap px-5 gap-4 justify-center">
+<!-- card -->
+      <div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+        <img class="bg-white p-3 rounded-full" src="media/dog-cartoon.png" alt="">
+        <h2 class="font-bold">Dog</h2>
+        <p class="text-gray-800">3 Items</p>
+
+      </div>
+<!-- card end -->
+
+<!-- card -->
+<div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+  <img class="bg-white p-3 rounded-full" src="media/fish-cartoon.png" alt="">
+  <h2 class="font-bold">Fish</h2>
+  <p class="text-gray-800">3 Items</p>
+
+</div>
+<!-- card end -->
+
+<!-- card -->
+<div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+  <img class="bg-white p-3 rounded-full" src="media/cat-cartoon.png" alt="">
+  <h2 class="font-bold">Dog</h2>
+  <p class="text-gray-800">3 Items</p>
+
+</div>
+<!-- card end -->
+
+<!-- card -->
+<div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+  <img class="bg-white p-3 rounded-full" src="media/bird-cartoon.png" alt="">
+  <h2 class="font-bold">Dog</h2>
+  <p class="text-gray-800">3 Items</p>
+
+</div>
+<!-- card end -->
+
+<!-- card -->
+<div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+  <img class="bg-white p-3 rounded-full" src="media/mouse-cartoon.png" alt="">
+  <h2 class="font-bold">Small pets</h2>
+  <p class="text-gray-800">3 Items</p>
+
+</div>
+<!-- card end -->
+
+<!-- card -->
+<div class="category-card w-[200px] h-[254px] bg-[#F9DF8A] flex flex-col justify-center items-center space-y-5 rounded-lg">
+
+  <img class="bg-white p-3 rounded-full" src="media/rabbit-cartoon.png" alt="">
+  <h2 class="font-bold">rabbit</h2>
+  <p class="text-gray-800">3 Items</p>
+
+</div>
+<!-- card end -->
+    </div>
+   </section>
+  <!-- categories section end -->
+
+<!-- trending pet -->
+<!-- trending pet end -->
+
+</body>
+
+</html>

@@ -24,6 +24,9 @@
         extend: {
           colors: {
             clifford: '#da373d',
+          },
+          fontFamily: {
+            manrope: ['Manrope', 'sans-serif'],
           }
         }
       }
@@ -37,11 +40,11 @@
 
 </head>
 
-<body>
+<body class="font-manrope">
 
 
   <!-- main start -->
-  <main class="bg-orange-300 h-24 max-w-screen-xl mx-auto px-16 lg:px-24">
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-24">
 
     <!-- header start -->
     <header class="lg:flex pt-10 mb-20">
@@ -193,76 +196,85 @@
     <!-- super clients -->
     <section class="mb-24 mt-24">
 
-      <div class=" bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
+      <div
+        class=" bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
 
         <!-- text section -->
-         <div class="flex justify-center items-center overflow-hidden">
+        <div class="flex justify-center items-center overflow-hidden">
           <div class="w-5/6">
             <h1 class="text-5xl font-bold mb-7 mt-10">Meet out Super Clients</h1>
-           <p class="mb-5 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates dignissimos provident ipsum dolor ratione laboriosam ut, delectus vel ab explicabo fugiat, quos facere voluptatibus. Voluptatibus minus aliquid quos doloremque repellat molestiae. Accusantium quae quod architecto eum, veniam dolores deleniti.
-           </p>
-  
-           <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
-           </div>
-         </div>
+            <p class="mb-5 text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates dignissimos provident ipsum
+              dolor ratione laboriosam ut, delectus vel ab explicabo fugiat, quos facere voluptatibus. Voluptatibus
+              minus aliquid quos doloremque repellat molestiae. Accusantium quae quod architecto eum, veniam dolores
+              deleniti.
+            </p>
 
-         <!-- review card section -->
-          <div class="relative py-24">
-
-            <!-- center card  -->
-<div class="absolute z-10 top-44 md:top-52">
-  <div class="h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5">
-    <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
-      <img src="media/client.png" alt="">
-    </div>
-
-    <div>
-      <p class="text-gray-500mb-5 mt-7">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
-      </p>
-      <h1 class="font-bold"> Ilham Yuda</h1>
-      <small class="font-bold text-gray-500">Businessman</small>
-    </div>
-
-   </div>
-</div>
-<!-- center end -->
-
-            <!-- top card -->
-             <div class="relative h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5 opacity-30 md:left-32 left-8">
-              <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
-                <img src="media/client.png" alt="">
-              </div>
-
-              <div>
-                <p class="text-gray-500mb-5 mt-7">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
-                </p>
-                <h1 class="font-bold"> Ilham Yuda</h1>
-                <small class="font-bold text-gray-500">Businessman</small>
-              </div>
-
-             </div>
-<!-- top card end -->
-
-             <!-- bottom cards -->
-             <div class="relative h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5 top-10 opacity-30 md:left-32 left-8">
-              <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
-                <img src="media/client.png" alt="">
-              </div>
-
-              <div>
-                <p class="text-gray-500mb-5 mt-7">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
-                </p>
-                <h1 class="font-bold"> Ilham Yuda</h1>
-                <small class="font-bold text-gray-500">Businessman</small>
-              </div>
-
-             </div>
-             <!-- bottom cards end -->
+            <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
           </div>
+        </div>
+
+        <!-- review card section -->
+        <div class="relative py-24">
+
+          <!-- center card  -->
+          <div class="absolute z-10 top-44 md:top-52">
+            <div class="h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5">
+              <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
+                <img src="media/client.png" alt="">
+              </div>
+
+              <div>
+                <p class="text-gray-500mb-5 mt-7">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem
+                  cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
+                </p>
+                <h1 class="font-bold"> Ilham Yuda</h1>
+                <small class="font-bold text-gray-500">Businessman</small>
+              </div>
+
+            </div>
+          </div>
+          <!-- center end -->
+
+          <!-- top card -->
+          <div
+            class="relative h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5 opacity-30 md:left-32 left-8">
+            <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
+              <img src="media/client.png" alt="">
+            </div>
+
+            <div>
+              <p class="text-gray-500mb-5 mt-7">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem
+                cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
+              </p>
+              <h1 class="font-bold"> Ilham Yuda</h1>
+              <small class="font-bold text-gray-500">Businessman</small>
+            </div>
+
+          </div>
+          <!-- top card end -->
+
+          <!-- bottom cards -->
+          <div
+            class="relative h-56 bg-white text-black rounded-lg w-full md:w-4/5 flex items-center px-5 top-10 opacity-30 md:left-32 left-8">
+            <div class="absolute -top-5 -left-5 border-white border-4 rounded-full">
+              <img src="media/client.png" alt="">
+            </div>
+
+            <div>
+              <p class="text-gray-500mb-5 mt-7">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, alias voluptates beatae dolore dolorem
+                cumque nam laborum quisquam incidunt omnis explicabo, pariatur eveniet architecto a.
+              </p>
+              <h1 class="font-bold"> Ilham Yuda</h1>
+              <small class="font-bold text-gray-500">Businessman</small>
+            </div>
+
+          </div>
+          <!-- bottom cards end -->
+        </div>
 
       </div>
 
@@ -271,6 +283,11 @@
 
 
   </main>
+
+
+  <footer class="h-26 bg-[rgba(185,245,165,1)]">
+
+  </footer>
 
 
 </body>
